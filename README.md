@@ -1,35 +1,45 @@
-# Fashion-Trend-Analysis
+# Video-Game-Sales-Analysis
 
-Welcome to the Fashion Trend Analysis project! This project analyzes 31,582 fashion product records to identify trends in brands, categories, pricing, discounts, and gender-based product preferences using Python.
+Welcome to the **Video Game Sales Analysis** project! This project analyzes **16,598 video game records** to identify trends in game sales, platforms, genres, publishers, and regional sales performance using Python.
 
 ## Getting Started
 
-- Load the `Fashion_Trends.csv` dataset using Pandas.
-- Perform data cleaning and exploratory data analysis (EDA).
-- Analyze fashion trends using statistical methods and visualizations.
+- Load the `vgsales.csv` dataset using Pandas.
+- Perform data cleaning and preprocessing.
+- Conduct Exploratory Data Analysis (EDA).
+- Analyze video game sales trends using statistical methods and visualizations.
 
 ## Features
 
-- Brand Analysis: Identify the most popular fashion brands.
-- Category Analysis: Explore product categories and types.
-- Discount Analysis: Analyze discount patterns and percentages.
-- Gender Analysis: Compare men's and women's fashion products.
-- Price Analysis: Explore different product price segments.
-- Data Visualization: Present insights using charts and graphs.
+- **Platform Analysis:** Identify the platforms with the highest video game sales.
+- **Genre Analysis:** Explore popular game genres and their sales performance.
+- **Regional Sales Analysis:** Compare sales across North America, Europe, Japan, and other regions.
+- **Game Analysis:** Identify the top-selling video games globally.
+- **Publisher Analysis:** Analyze publishers based on their game sales.
+- **Yearly Sales Analysis:** Explore changes in video game sales over different years.
+- **Data Visualization:** Present insights through charts and graphs.
 
 ## Usage
 
-Open the `Fashion_trend_analysis.ipynb` file using Jupyter Notebook or Google Colab.
+Open the `Video_Game_Sales_Analysis.ipynb` file using Jupyter Notebook or Google Colab.
 
 Install the required libraries:
 
-```
+```bash
 pip install pandas matplotlib seaborn
 ```
 
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
 ## Description
 
-This project uses Python, Pandas, Matplotlib, and Seaborn to perform Exploratory Data Analysis (EDA) and understand fashion market trends through data-driven insights.
+This project uses Python, Pandas, Matplotlib, and Seaborn to perform **Exploratory Data Analysis (EDA)** on video game sales data. It focuses on identifying sales patterns, popular gaming platforms, successful genres, top publishers, and regional market performance to understand the video game industry's sales trends.
 
 ## Contributing
 
